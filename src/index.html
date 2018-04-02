@@ -8,14 +8,408 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap 4</title>
+    <title>Mizuxe Theme</title>
   </head>
 
-  <body>
-    <h1>Bootstrap Starter Pack</h1>
+  <body id="home">
+
+    <nav class="navbar navbar-expand-md navbar-light justify-content-between fixed-top py-2">
+      <div class="container">
+
+        <a href="#" class="navbar-brand">
+          <img src="img/mlogo.png" width="50" height="50" alt="">
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+
+        <a href="#" class="navbar-toggler" onclick="return false;">
+          <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Conheça os autores</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <section id="showcase" class="py-5 paraxify">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-6 col-sm-12 text-center">
+              <h1 class="display-2 mt-5 pt-5">
+                Do What You Dream Of...
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, laborum.
+              </p>
+              <a href="#" class="btn btn-outline-light btn-lg"><i class="fa fa-arrow-right"></i> Leia Mais</a>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <img src="img/book.png" class="img-fluid d-lg-block d-none" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="bg-dark text-white py-5 clearfix">
+      <div class="container">
+        <form class="row">
+          <div class="col-md-4">
+            <input type="text" class="form-control form-control-lg" placeholder="Name">
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control form-control-lg" placeholder="Email">
+          </div>
+          <div class="col-md-4">
+            <a href="#" onclick="return false;" class="btn btn-primary btn-large btn-block h-100">
+              <span class="align-middle">
+                <i class="fa fa-envelope-open-o"></i> Inscreva-se
+              </span>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- BOXES -->
+    <section id="boxes" class="py-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="card-title text-primary">Be Better</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white">
+              <div class="card-body">
+                <h3 class="card-title">Be Smarter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="card-title text-primary">Be Faster</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white">
+              <div class="card-body">
+                <h3 class="card-title">Be Stronger</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / WHY -->
+    <section id="about" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                Por quê este livro?
+              </h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatem quam fugit natus minima qui.
+              </p>
+            </div>
+
+            <!-- ACCORDION -->
+            <div id="accordion">
+
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="fa fa-arrow-circle-down"></i> Se inspire
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <i class="fa fa-arrow-circle-down"></i> Adiquira o conhecimento
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <i class="fa fa-arrow-circle-down"></i> Abra a sua mente
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors" class="py-5 text-center bg-faded">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                Conheça os autores
+              </h1>
+              <p class="lead pb-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatem quam fugit natus minima qui.
+              </p>
+            </div>
+            <div class="row">
+
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-3">
+                <div class="card h-100">
+
+                  <div class="card-body">
+                    <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h3 class="card-title">Susan Williams</h3>
+                    <h5 class="text-muted">Lead Writer</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                    </p>
+                  </div>
+
+                  <div class="card-footer bg-transparent border-0">
+                    <div class="d-flex fex-row justify-content-center">
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-lg-0 mb-3">
+                <div class="card h-100">
+
+                  <div class="card-body">
+                    <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h3 class="card-title">Grace Smith</h3>
+                    <h5 class="text-muted">Co-Writer</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                    </p>
+                  </div>
+
+                  <div class="card-footer bg-transparent border-0">
+                    <div class="d-flex fex-row justify-content-center">
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-md-0 mb-3">
+                <div class="card h-100">
+
+                  <div class="card-body">
+                    <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h3 class="card-title">John Doe</h3>
+                    <h5 class="text-muted">Editor</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                    </p>
+                  </div>
+
+                  <div class="card-footer bg-transparent border-0">
+                    <div class="d-flex fex-row justify-content-center">
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 mb-md-0 mb-3">
+                <div class="card h-100">
+
+                  <div class="card-body">
+                    <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h3 class="card-title">Kevin Swanson</h3>
+                    <h5 class="text-muted">Artist</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, modi.
+                    </p>
+                  </div>
+
+                  <div class="card-footer bg-transparent border-0">
+                    <div class="d-flex fex-row justify-content-center">
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-sm-12">
+            <h3>Mantenha Contato</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, reprehenderit.
+            </p>
+            <form>
+
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fa fa-user"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                  </div>
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+            </form>
+          </div>
+          <div class="col-lg-3">
+            <img src="img/mlogo.png" alt="" class="img-fluid d-lg-block d-none mt-5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 offset-md-6">
+            <p class="lead">Copyright &copy; 2017 Mizuxe</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+    <script src="js/paraxify.min.js"></script>
+
+    <script type="text/javascript">
+      myParaxify = paraxify('.paraxify');
+    </script>
+
   </body>
 
 </html>
